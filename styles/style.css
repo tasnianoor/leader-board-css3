@@ -31,8 +31,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   font-weight: 500;
-  /* margin-top: 6px; */
-  /* margin-left: 16px; */
+  
 }
 hr{
   margin: 30px 0;
@@ -90,12 +89,6 @@ nav {
   grid-template-columns:repeat(3, 1fr);
   row-gap:30px;
 }
-/* .player{
-  display: flex;
-  align-items: center;
-  margin-left: 16px; 
-  padding: 20px;
-} */
 
 .player,.blog {
   display: flex;
@@ -105,11 +98,7 @@ nav {
 .players .player img {
   width: 56px;
   height: 56px;
-  /* margin-left: 16px; */
-  /* padding: 16px; */
 }
-
-
 
 /*--------------------
  Top blog style
@@ -170,10 +159,6 @@ nav {
   margin-left: 10px;
   font-weight: 400;
 }
-/* .rating-hour {
-  font-weight: 400;
-  padding: 5px 8px;
-}  */
 
 .rating-count{
   padding: 10px;
@@ -185,12 +170,8 @@ nav {
   background-color: #ff4a605c;
   border-radius: 20px;
 }
-/* .rating {
-  display: flex;
-  align-items: center;
-} */
+
 .fa-star{
- 
   font-size: 12px;
 }
 .fa-star.filled{
@@ -200,7 +181,6 @@ nav {
   color: #aeaeae;
 }
 .fa-clock{
-  /* color: red; */
   padding: 6px;
 }
 
